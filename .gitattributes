@@ -1,0 +1,18 @@
+# Normalise line endings
+* text=auto eol=lf
+
+# Notebooks: treat as text for diffing but do not let them dominate the
+# language statistics GitHub shows for the repository
+*.ipynb text
+*.ipynb linguist-documentation=false
+*.ipynb linguist-language=Python
+
+# Media and binaries
+*.png binary
+*.jpg binary
+*.gif binary
+*.mp4 binary
+*.mov binary
+*.pbix binary
+*.parquet binary
+*.xlsx binary

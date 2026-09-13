@@ -1,0 +1,44 @@
+# ---- Data (never commit: Freddie Mac data is licence-restricted and huge) ----
+Data.zip
+historical_data_*/
+*.txt
+!requirements.txt
+
+# Model artefacts and intermediate exports
+*.joblib
+*.pkl
+*.parquet
+shap_loans.csv
+shap_long.parquet
+
+# ---- Power BI ----
+# The .pbix is ~99 MB; it lives outside the repo. See docs/10-dashboard.md
+*.pbix
+
+# ---- Exploratory notebook kept local only ----
+model_1.ipynb
+
+# ---- Jupyter / Python ----
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.python-version
+.ipynb_checkpoints
+
+# ---- Large media ----
+# The .mov screen recording is ~17 MB; the .mp4 and .gif in assets/img are the
+# versions used by the docs.
+*.mov
+
+# ---- Files delivered by the Claude desktop app ----
+Claude outputs/
+
+# ---- Editors / OS ----
+.DS_Store
+._*
+.Trashes
+.idea/
+.vscode/
