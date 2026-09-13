@@ -2,8 +2,6 @@
 
 ## Power BI dashboard — demo
 
-https://github.com/luke235422/Freddie-Mac-ML-progect/raw/main/Video%20and%20img/powerbi-demo.mp4
+![Power BI dashboard demo](Video%20and%20img/powerbi-demo.gif)
 
-<video src="https://github.com/luke235422/Freddie-Mac-ML-progect/raw/main/Video%20and%20img/powerbi-demo.mp4" controls width="100%"></video>
-
-[Scarica il video](Video%20and%20img/powerbi-demo.mp4)
+▶️ [Video completo in MP4 (qualità piena, con velocità originale)](Video%20and%20img/powerbi-demo.mp4)
