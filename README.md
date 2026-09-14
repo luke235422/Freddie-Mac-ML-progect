@@ -167,15 +167,9 @@ dashboard.
 - **The threshold is tuned on the test set**, which makes the reported F2 mildly
   optimistic. ROC-AUC and average precision are unaffected — they need no
   threshold — but the clean protocol picks the cut-off on validation first.
-- **Two missing-value indicators never reach the model.** `dti_was_missing` and
-  `fico_score_was_missing` are built but left out of the column lists, so they
-  get dropped. The EDA showed both carry real signal; it is the cheapest
-  available improvement.
 - **One split gives one estimate with no error bar.** Rolling-origin validation
   across the five vintages would show how stable that 0.831 actually is.
 
-Full list, including what the model structurally cannot do, in
-[`docs/11`](docs/11-limitations.md).
 
 ## License
 
